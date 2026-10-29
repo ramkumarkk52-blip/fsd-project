@@ -1,0 +1,24 @@
+{
+  "name": "fitness-center-management-system",
+  "version": "1.0.0",
+  "description": "Full Stack Fitness Center Management System with React, Node.js, Express & MySQL",
+  "scripts": {
+    "start": "node backend/server.js",
+    "seed": "node backend/database/seed.js",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "test": "node backend/test_integration.js"
+  },
+  "keywords": [
+    "fitness",
+    "gym-management",
+    "fullstack",
+    "react",
+    "nodejs",
+    "express",
+    "mysql"
+  ],
+  "author": "FSD Project",
+  "license": "ISC"
+}
